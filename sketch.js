@@ -6,7 +6,7 @@ const Constraint = Matter.Constraint;
 var engine, world;
 
 function setup(){
-    createCanvas(windowWidth,windowHeight);
+    createCanvas(800,400);
     engine = Engine.create();
     world = engine.world;
 
